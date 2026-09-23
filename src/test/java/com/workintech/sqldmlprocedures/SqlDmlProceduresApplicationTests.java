@@ -18,6 +18,8 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.extension.ExtendWith;
+
 @SpringBootTest
 @ExtendWith(ResultAnalyzer.class)
 class SqlDmlProceduresApplicationTests {
